@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wiggi Dev - Solo Game Developer & 3D Modeling Artist. Showcasing creative game development projects and stunning 3D models.">
+    <meta name="keywords" content="game developer, 3D modeling, indie games, game design, 3D artist, solo developer, game development portfolio">
+    <meta name="author" content="Wiggi Dev">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Wiggi Dev - Game Developer & 3D Artist">
+    <meta property="og:description" content="Solo Game Developer & 3D Modeling Artist showcasing creative projects and stunning 3D artwork.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wiggidev.com">
+    <meta property="og:image" content="https://wiggidev.com/og-image.jpg">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wiggi Dev - Game Developer & 3D Artist">
+    <meta name="twitter:description" content="Solo Game Developer & 3D Modeling Artist showcasing creative projects and stunning 3D artwork.">
+    
+    <title>Wiggi Dev - Game Developer & 3D Artist</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wiggi<span class="accent">Dev</span></h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="WIGGI DEV">WIGGI DEV</span>
+                </h1>
+                <h2 class="hero-subtitle">Solo Game Developer & 3D Artist</h2>
+                <p class="hero-description">
+                    Crafting immersive gaming experiences and stunning 3D worlds. 
+                    Bringing imagination to life through code and creativity.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"><i class="fas fa-cube"></i></div>
+                    <div class="element element-2"><i class="fas fa-gamepad"></i></div>
+                    <div class="element element-3"><i class="fas fa-palette"></i></div>
+                    <div class="element element-4"><i class="fas fa-code"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate creator bringing digital worlds to life</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Journey</h3>
+                    <p>
+                        Currently a student passionate about game development and 3D art. I've been fascinated by 
+                        technology since childhood and love exploring new tech innovations. I started my game 
+                        development journey this year and am currently working hard to create engaging games.
+                    </p>
+                    <p>
+                        My background in technology gives me a strong foundation for learning game development tools 
+                        and techniques. Every project is a learning experience as I work towards becoming a skilled 
+                        game developer and 3D artist.
+                    </p>
+                    <div class="expertise-areas">
+                        <div class="expertise-item">
+                            <i class="fas fa-gamepad"></i>
+                            <h4>Game Development</h4>
+                            <p>Full-stack game development from concept to release</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-cube"></i>
+                            <h4>3D Modeling</h4>
+                            <p>High-quality 3D assets and environmental design</p>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Visual Design</h4>
+                            <p>UI/UX design and artistic direction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Showcasing my latest games and 3D artwork</p>
+            </div>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="images">Images</button>
+                <button class="filter-btn" data-filter="videos">Videos</button>
+                <button class="filter-btn" data-filter="katana">Katana</button>
+                <button class="filter-btn" data-filter="car">Car</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Image Portfolio Items -->
+                <div class="portfolio-item images car" data-category="images">
+                    <div class="portfolio-image">
+                        <img src="attached_assets/12aed5f9-e90a-42be-b57e-449ce6d04e23_1753431435288.png" alt="Simple Car Controller">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Simple Car Controller</h3>
+                                <p>3D car model with dynamic lighting effects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item images" data-category="images">
+                    <div class="portfolio-image">
+                        <img src="attached_assets/19883475-244e-42a2-ba4b-f238b555c44e_1753431448963.png" alt="Mystical Lantern">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Lantern</h3>
+                                <p>Atmospheric lighting study with warm ambiance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item images katana" data-category="images">
+                    <div class="portfolio-image">
+                        <img src="attached_assets/e8473fca-653f-4946-8b13-710638392e93_1753431440674.png" alt="Katana 3D Model">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Katana</h3>
+                                <p>Detailed 3D weapon model with realistic materials</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item images katana" data-category="images">
+                    <div class="portfolio-image">
+                        <img src="attached_assets/136ca952-150c-4c72-b4f7-62440a49b59f_1753431443738.png" alt="Katana Model">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Katana</h3>
+                                <p>Medieval weapon with detailed wood textures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item images katana" data-category="images">
+                    <div class="portfolio-image">
+                        <img src="attached_assets/e8473fca-653f-4946-8b13-710638392e93_1753431440674.png" alt="Katana 3D Model">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Katana</h3>
+                                <p>Samurai sword with detailed metallic finish</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Portfolio Items - Katana -->
+                <div class="portfolio-item videos katana" data-category="videos">
+                    <div class="portfolio-image">
+                        <video controls poster="attached_assets/e8473fca-653f-4946-8b13-710638392e93_1753431440674.png">
+                            <source src="attached_assets/Rendered Katana_1753432384289.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Video Portfolio Items - Car -->
+                <div class="portfolio-item videos car" data-category="videos">
+                    <div class="portfolio-image">
+                        <video controls poster="attached_assets/12aed5f9-e90a-42be-b57e-449ce6d04e23_1753431435288.png">
+                            <source src="attached_assets/asset 1_00108000_1753432402061.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item videos car" data-category="videos">
+                    <div class="portfolio-image">
+                        <video controls poster="attached_assets/12aed5f9-e90a-42be-b57e-449ce6d04e23_1753431435288.png">
+                            <source src="attached_assets/asset 2_00108000_1753432402062.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item videos car" data-category="videos">
+                    <div class="portfolio-image">
+                        <video controls poster="attached_assets/12aed5f9-e90a-42be-b57e-449ce6d04e23_1753431435288.png">
+                            <source src="attached_assets/asset 3_00108000_1753432402063.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item videos car" data-category="videos">
+                    <div class="portfolio-image">
+                        <video controls poster="attached_assets/12aed5f9-e90a-42be-b57e-449ce6d04e23_1753431435288.png">
+                            <source src="attached_assets/asset 4_00108000_1753432402063.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="portfolio-item videos car" data-category="videos">
+                    <div class="portfolio-image">
+                        <video controls poster="attached_assets/12aed5f9-e90a-42be-b57e-449ce6d04e23_1753431435288.png">
+                            <source src="attached_assets/asset 5_00108000_1753432402064.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Tools and technologies I use to bring ideas to life</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Game Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Unity</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">C#</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>3D Modeling & Animation</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Blender</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="skills-category">
+                    <h3>Additional Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Photoshop</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Git/Version Control</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Project Management</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to collaborate on your next gaming project?</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Create Something Amazing</h3>
+                    <p>
+                        Whether you need a custom game developed, 3D models created, or consultation 
+                        on your gaming project, I'm here to help bring your vision to life.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>editsathollow@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/channel/UC_jES5dczjO9f7nKzZX45nQ" class="social-link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                            <span>Visit my channel</span>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Wiggi Dev. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
